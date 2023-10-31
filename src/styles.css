@@ -1,0 +1,22 @@
+.title {
+  text-align: left;
+  background-color: lightsalmon;
+  font-size: x-large;
+  font-family: "Segoe Print";
+}
+
+label{
+  background-color: moccasin;
+  background-size: contain;
+  font-size: x-large;
+}
+
+input{
+  background-color: antiquewhite;
+  font-size: large;
+}
+
+button{
+  padding: unset;
+  margin: unset;
+}

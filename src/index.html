@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Search</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<main>
+  <h1 class="title">LinearSearch</h1>
+  <div>
+    <label id="linearDisplay"></label>
+  </div>
+  <div>
+    <input id="searchedForLinear"/>
+  </div>
+  <button onclick="CreateArreyForLinearSearch()"> CreateArray</button>
+  <button onclick="LinearSearch()"> Search</button>
+
+</main>
+
+<main>
+  <h1 class="title">BinarySearch</h1>
+  <div>
+    <label id="binaryDisplay"></label>
+  </div>
+  <div>
+    <input id="searchedForBinary"/>
+  </div>
+  <button onclick="CreateArreyForBinarySearch()"> CreateArray</button>
+  <button onclick="BinarySearch()"> Search</button>
+
+</main>
+
+<script src="scripts/linear.js"></script>
+<script src="scripts/binary.js"></script>
+<script src="scripts/createArray.js"></script>
+</body>
+</html>
